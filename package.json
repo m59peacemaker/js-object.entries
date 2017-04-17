@@ -11,8 +11,8 @@
     "shim",
     "native",
     "built-in",
-    "ES7",
-    "ES2017",
+    "es7",
+    "es2017",
     "browser",
     "node"
   ],
