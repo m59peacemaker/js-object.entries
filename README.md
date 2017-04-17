@@ -6,7 +6,7 @@ The implementation is the same as [es-shims/Object.entries](https://github.com/e
 
 ## built-in
 
-You should polyfill your targeted browser environments automatically with [polyfill.io](https://polyfill.io), rather than using non-tailored approach like this ponyfill. Node =< 7 has `Object.entries` natively. Therefore, you probably only need this ponyfill for Node < 7.
+You should polyfill your targeted browser environments automatically with [polyfill.io](https://polyfill.io), rather than using a non-tailored approach like this ponyfill. Node =< 7 has `Object.entries` natively. You probably only need this ponyfill if your targeted environment is Node and is version < 7.
 
 ## install
 
